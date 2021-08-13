@@ -60,5 +60,5 @@ const N = 3;
 
 // execution
 console.time(exports.name)
-exports.getLargestPalindrome(N)
+console.log("result:", exports.getLargestPalindrome(N))
 console.timeEnd(exports.name)
