@@ -29,7 +29,7 @@ exports.getLargestPalindrome = (N) => {
       
     for (let j = 10 ** (N - 1); j < 10 ** N; j++) {
 
-      // check if the product is a plaindrome
+      // check if the product is a palindrome
       if (isPalindrome(i * j)) {
 
         // check if it's larger than our largest palindrome
